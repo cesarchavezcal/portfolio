@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html,
 body,
 div,
@@ -141,10 +145,24 @@ h1 {
     font-size: 4rem;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
+    font-variant-caps: petite-caps;
+    line-height: 3.5rem;
+    color: #464646;
 }
 
 p {
     font-size: 1.25rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
+    color: #252525;
+}
+
+small {
+    display: block;
+    padding: 1rem;
+    font-size: .8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #252525;
+    text-align: center;
 }
