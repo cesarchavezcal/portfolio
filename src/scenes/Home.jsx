@@ -8,7 +8,6 @@ import { DribbbleShotsContext } from './../Context/DribbbleShotsContext';
 const Home = () => {
   const { userData } = useContext(DribbbleContext);
   const { shotsData } = useContext(DribbbleShotsContext);
-  console.log(shotsData)
   // eslint-disable-next-line camelcase
   const { avatar_url, bio, name } = userData;
   return (
